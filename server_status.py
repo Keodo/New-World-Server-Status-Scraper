@@ -13,10 +13,10 @@ scrape_url = "https://www.newworld.com/en-us/support/server-status" # The page t
 webhook_url = "https://discord.com/api/webhooks/YOUR_CHANNEL_WEBHOOK_HERE" # Your discord webhook URL - https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
 
 filter_regions = False # Set to True to only post updates about certain regions
-monitored_regions = ["US East", "US West"] # List of regions to update
+monitored_regions = ["US East"] # List of regions to update
 
 filter_servers = False # Set to True to only post updates about certain servers
-monitored_servers = ["Ephelyn", "Samavasarana"] # List of server to update
+monitored_servers = ["Heliopolis"] # List of server to update
 
 logging.basicConfig(format='%(message)s', level="INFO")
 log = logging.getLogger('root')
